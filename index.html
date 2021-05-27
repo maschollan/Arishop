@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Arishop | E-Comercee</title>
+		<link rel="stylesheet" type="text/css" href="src/css/bootstrap.min.css">
+		<script type="text/javascript" src="src/js/jquery.min.js"></script>
+		<script type="text/javascript" src="src/js/popper.min.js"></script>
+		<script type="text/javascript" src="src/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="src/js/all.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="src/css/style.css">
+	</head>
+	<body>
+		
+		<header>
+			<div class="container">
+				<div class="row align-item-center">
+					<div class="col-lg-3">
+						<h1><b>AriShop</b></h1>
+					</div>
+					<div class="col-lg-6">
+						<div class="section">
+							<form>
+								<div class="input-group">
+									<input type="text" class="form-control" placeholder="Search">
+									<div class="input-group-append">
+										<button type="submit" class="btn btn-primary"><i class="fas fa-search"></i> Search</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="d-flex justify-content-center">
+							<div class="widget-header d-lg-none">
+								<a href="#menunavbar" class="d-inline-flex mx-2" data-toggle="collapse">
+									<div class="widget-icon">
+										<i class="fas fa-bars"></i>
+									</div>
+									<div class="widget-text">Menu</div>
+								</a>
+							</div>
+							<div class="widget-header">
+								<a href="javascript:void(0)" class="d-inline-flex mx-2">
+									<div class="widget-icon">
+										<i class="fas fa-shopping-cart"></i>
+									</div>
+									<div class="widget-text">3 Items</div>
+								</a>
+							</div>
+							<div class="widget-header dropdown">
+								<a href="javascript:void(0)" class="d-inline-flex mx-2" data-toggle="dropdown">
+									<div class="widget-icon">
+										<i class="fas fa-user"></i>
+									</div>
+									<div class="widget-text dropdown-toggle">Login</div>
+								</a>
+								<div class="dropdown-menu dropdown-menu-right">
+									<div class="dropdown-form">
+										<h5 class="text-center">Sign In</h5>
+										<hr>
+										<form>
+											<div class="input-group mb-3">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fas fa-user"></i></span>
+												</div>
+												<input type="email" name="email" class="form-control" placeholder="Email">
+											</div>
+											<div class="input-group mb-3">
+												<div class="input-group-prepend">
+													<span class="input-group-text"><i class="fas fa-lock"></i></span>
+												</div>
+												<input type="password" name="password" class="form-control" placeholder="Password">
+											</div>
+											<button type="submit" class="btn btn-primary btn-block">Sign in</button>
+											<div class="dropdown-divider"></div>
+											<a href="javascript:void(0)">Don't have account? Sign Up</a><br>
+											<a href="javascript:void(0)">Forgot password?</a>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			<div class="container">
+				<div class="collapse navbar-collapse" id="menunavbar">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item">
+							<a href="javascript:void(0)" class="nav-link mx-4">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="javascript:void(0)" class="nav-link mx-4">Laptop</a>
+						</li>
+						<li class="nav-item">
+							<a href="javascript:void(0)" class="nav-link mx-4">Smartphone</a>
+						</li>
+						<li class="nav-item">
+							<a href="javascript:void(0)" class="nav-link mx-4">Cameras</a>
+						</li>
+						<li class="nav-item">
+							<a href="javascript:void(0)" class="nav-link mx-4">Accessories</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a href="javascript:void(0)" class="nav-link mx-4 dropdown-toggle" data-toggle="dropdown">More</a>
+							<div class="dropdown-menu dropdown-menu-right">
+								<a class="dropdown-item" href="#">Link 1</a>
+								<a class="dropdown-item" href="#">Link 2</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container-fluid pt-4" style="background-color: rgba(0,0,0,.05);">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-8 mb-3">
+						<div class="bg-white border rounded py-3">
+							<div class="carousel slide" data-slider="carousel" id="slider">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img src="img/product01.png" class="img-fluid" style="width: 100%;max-height: 310px; object-fit: contain;">
+									</div>
+									<div class="carousel-item">
+										<img src="img/product02.png" class="img-fluid" style="width: 100%;max-height: 310px; object-fit: contain;">
+									</div>
+									<div class="carousel-item">
+										<img src="img/product07.png" class="img-fluid" style="width: 100%;max-height: 310px; object-fit: contain;">
+									</div>
+								</div>
+								<a href="#slider" class="carousel-control-next" data-slide="next">
+									<div class="carousel-control-next-btn">
+										<span class="carousel-control-next-icon"></span>
+									</div>
+								</a>
+								<a href="#slider" class="carousel-control-prev" data-slide="prev">
+									<div class="carousel-control-prev-btn">
+										<span class="carousel-control-prev-icon"></span>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 mb-3">
+						<div class="card mb-3">
+							<figure class="itemside">
+								<div class="img-wrap img-sm border-right p-2">
+									<img src="img/product01.png">
+								</div>
+								<figcaption class="p-2 align-self-center">
+									<h6 class="title">Just name of title or name goes here</h6>
+									<a href="#">More details</a>
+								</figcaption>
+							</figure> 
+						</div>
+						<div class="card mb-3">
+							<figure class="itemside">
+								<div class="img-wrap img-sm border-right p-2">
+									<img src="img/product02.png">
+								</div>
+								<figcaption class="p-2 align-self-center">
+									<h6 class="title">Just name of title or name goes here</h6>
+									<a href="#">More details</a>
+								</figcaption>
+							</figure> 
+						</div>
+						<div class="card mb-3">
+							<figure class="itemside">
+								<div class="img-wrap img-sm border-right p-2">
+									<img src="img/product07.png">
+								</div>
+								<figcaption class="p-2 align-self-center">
+									<a href="javascript:void(0)" class="stretched-link">
+										<h5>Product Name</h5>
+									</a>
+									<p class="h6">
+										<span class="price">$650</span>
+										<del class="old-price">$700</del>
+									</p>
+								</figcaption>
+							</figure> 
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid" style="background-color: rgba(0,0,0,.05);">
+			<div class="conatiner">
+				<div class="container">
+					<div class="heading-line">
+						<h4 class="heading-line-text">Recommends</h4>
+					</div>
+
+					<div class="row">
+						
+						<div class="col-md-4">
+							<div class="shop">
+								<div class="shop-img">
+									<img src="img/shop01.png">
+								</div>
+								<div class="shop-body">
+									<h3>Product Name</h3>
+									<div class="price-wrap h4">
+										<span class="price">$300</span>
+										<del class="old-price">$500</del>
+									</div>
+									<div class="rating">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</div>
+									<a href="javascript:void(0)">Shop now <i class="fas fa-arrow-circle-right"></i></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="shop">
+								<div class="shop-img">
+									<img src="img/shop02.png">
+								</div>
+								<div class="shop-body">
+									<h3>Product Name</h3>
+									<div class="price-wrap h4">
+										<span class="price">$200</span>
+										<del class="old-price">$400</del>
+									</div>
+									<div class="rating">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+									<a href="javascript:void(0)">Shop now <i class="fas fa-arrow-circle-right"></i></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="shop">
+								<div class="shop-img">
+									<img src="img/shop03.png">
+								</div>
+								<div class="shop-body">
+									<h3>Product Name</h3>
+									<div class="price-wrap h4">
+										<span class="price">$600</span>
+										<del class="old-price">$1.200</del>
+									</div>
+									<div class="rating">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+									<a href="javascript:void(0)">Shop now <i class="fas fa-arrow-circle-right"></i></a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid" style="background-color: rgba(0,0,0,.05);">
+			<div class="container">
+
+				<div class="heading-line">
+					<h4 class="heading-line-text">Top Sellings</h4>
+				</div>
+
+				<div class="row">
+
+					<div class="col-lg-3   col-sm-6 mb-3">
+						<figure class="card">
+							<div class="img-wrap border-bottom">
+								<img src="img/product07.png">
+								<a href="javascript:void(0)" class="btn-overlay">
+									<i class="fas fa-search-plus"></i> Quick View
+								</a>
+								<span class="badge-new">New</span>
+							</div>
+							<figcaption class="info-wrap">
+								<a href="javascript:void(0)" class="h4">Product Name</a>
+								<div class="rating small">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+								</div>
+								<div class="action-wrap">
+									<a href="javascript:void(0)" class="btn btn-primary btn-sm">
+										<i class="fas fa-shopping-cart"></i> order
+									</a>
+									<div class="price-wrap h5">
+										<span class="price">$340</span>
+									</div>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+
+					<div class="col-lg-3   col-sm-6 mb-3">
+						<figure class="card">
+							<div class="img-wrap border-bottom">
+								<img src="img/product01.png">
+								<a href="javascript:void(0)" class="btn-overlay">
+									<i class="fas fa-search-plus"></i> Quick View
+								</a>
+								<span class="badge-offer"><i>-50%</i></span>
+							</div>
+							<figcaption class="info-wrap">
+								<a href="javascript:void(0)" class="h4">Product Name</a>
+								<div class="rating small">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</div>
+								<div class="action-wrap">
+									<a href="javascript:void(0)" class="btn btn-primary btn-sm">
+										<i class="fas fa-shopping-cart"></i> order
+									</a>
+									<div class="price-wrap h5">
+										<span class="price">$678</span>
+									</div>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+
+					<div class="col-lg-3   col-sm-6 mb-3">
+						<figure class="card">
+							<div class="img-wrap border-bottom">
+								<img src="img/product02.png">
+								<a href="javascript:void(0)" class="btn-overlay">
+									<i class="fas fa-search-plus"></i> Quick View
+								</a>
+							</div>
+							<figcaption class="info-wrap">
+								<a href="javascript:void(0)" class="h4">Product Name</a>
+								<div class="rating small">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+								</div>
+								<div class="action-wrap">
+									<a href="javascript:void(0)" class="btn btn-primary btn-sm">
+										<i class="fas fa-shopping-cart"></i> order
+									</a>
+									<div class="price-wrap h5">
+										<span class="price">$340</span>
+									</div>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+
+					<div class="col-lg-3   col-sm-6 mb-3">
+						<figure class="card">
+							<div class="img-wrap border-bottom">
+								<img src="img/product03.png">
+								<a href="javascript:void(0)" class="btn-overlay">
+									<i class="fas fa-search-plus"></i> Quick View
+								</a>
+							</div>
+							<figcaption class="info-wrap">
+								<a href="javascript:void(0)" class="h4">Product Name</a>
+								<div class="rating small">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</div>
+								<div class="action-wrap">
+									<a href="javascript:void(0)" class="btn btn-primary btn-sm">
+										<i class="fas fa-shopping-cart"></i> order
+									</a>
+									<div class="price-wrap h5">
+										<span class="price">$678</span>
+									</div>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+
+					<div class="col-lg-3   col-sm-6 mb-3">
+						<figure class="card">
+							<div class="img-wrap border-bottom">
+								<img src="img/product04.png">
+								<a href="javascript:void(0)" class="btn-overlay">
+									<i class="fas fa-search-plus"></i> Quick View
+								</a>
+								<span class="badge-offer"><i>-30%</i></span>
+							</div>
+							<figcaption class="info-wrap">
+								<a href="javascript:void(0)" class="h4">Product Name</a>
+								<div class="rating small">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+								</div>
+								<div class="action-wrap">
+									<a href="javascript:void(0)" class="btn btn-primary btn-sm">
+										<i class="fas fa-shopping-cart"></i> order
+									</a>
+									<div class="price-wrap h5">
+										<span class="price">$340</span>
+										<span class="old-price">$500</span>
+									</div>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+
+					<div class="col-lg-3   col-sm-6 mb-3">
+						<figure class="card">
+							<div class="img-wrap border-bottom">
+								<img src="img/product05.png">
+								<a href="javascript:void(0)" class="btn-overlay">
+									<i class="fas fa-search-plus"></i> Quick View
+								</a>
+							</div>
+							<figcaption class="info-wrap">
+								<a href="javascript:void(0)" class="h4">Product Name</a>
+								<div class="rating small">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+								</div>
+								<div class="action-wrap">
+									<a href="javascript:void(0)" class="btn btn-primary btn-sm">
+										<i class="fas fa-shopping-cart"></i> order
+									</a>
+									<div class="price-wrap h5">
+										<span class="price">$678</span>
+									</div>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+
+					<div class="col-lg-3   col-sm-6 mb-3">
+						<figure class="card">
+							<div class="img-wrap border-bottom">
+								<img src="img/product06.png">
+								<a href="javascript:void(0)" class="btn-overlay">
+									<i class="fas fa-search-plus"></i> Quick View
+								</a>
+								<span class="badge-new">New</span>
+							</div>
+							<figcaption class="info-wrap">
+								<a href="javascript:void(0)" class="h4">Product Name</a>
+								<div class="rating small">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+								</div>
+								<div class="action-wrap">
+									<a href="javascript:void(0)" class="btn btn-primary btn-sm">
+										<i class="fas fa-shopping-cart"></i> order
+									</a>
+									<div class="price-wrap h5">
+										<span class="price">$340</span>
+									</div>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+
+					<div class="col-lg-3 col-sm-6 mb-3">
+						<figure class="card">
+							<div class="img-wrap border-bottom">
+								<img src="img/product09.png">
+								<a href="javascript:void(0)" class="btn-overlay">
+									<i class="fas fa-search-plus"></i> Quick View
+								</a>
+							</div>
+							<figcaption class="info-wrap">
+								<a href="javascript:void(0)" class="h4">Product Name</a>
+								<div class="rating small">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+								</div>
+								<div class="action-wrap">
+									<a href="javascript:void(0)" class="btn btn-primary btn-sm">
+										<i class="fas fa-shopping-cart"></i> order
+									</a>
+									<div class="price-wrap h5">
+										<span class="price">$340</span>
+									</div>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="container">
+				<div class="row pt-3">
+					<div class="col-md-3 py-3">
+						<h5 class="footer-tittle">Account</h5>
+						<ul class="footer-list">
+							<li><a href="javascript:void(0)">User Login</a></li>
+							<li><a href="javascript:void(0)">User Register</a></li>
+							<li><a href="javascript:void(0)">Account Settings</a></li>
+							<li><a href="javascript:void(0)">My Whistlist</a></li>
+							<li><a href="javascript:void(0)">My Orders</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 py-3">
+						<h5 class="footer-tittle">About</h5>
+						<ul class="footer-list">
+							<li><a href="javascript:void(0)">Our History</a></li>
+							<li><a href="javascript:void(0)">How To Buy</a></li>
+							<li><a href="javascript:void(0)">Payment</a></li>
+							<li><a href="javascript:void(0)">Delivery</a></li>
+							<li><a href="javascript:void(0)">Partnership</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 py-3">
+						<h5 class="footer-tittle">Services</h5>
+						<ul class="footer-list">
+							<li><a href="javascript:void(0)">Help Center</a></li>
+							<li><a href="javascript:void(0)">Terms And Policy</a></li>
+							<li><a href="javascript:void(0)">Licenses</a></li>
+							<li><a href="javascript:void(0)">Open Distute</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 py-3">
+						<h5 class="footer-tittle">Contact</h5>
+						<ul class="footer-list">
+							<li><a href="javascript:void(0)">About Us</a></li>
+							<li><a href="javascript:void(0)">
+								<i class="fas fa-phone-alt text-primary"></i> +628 989-9190-693
+							</a></li>
+							<li><a href="javascript:void(0)">
+								<i class="fas fa-envelope text-primary"></i>  email@email.com
+							</a></li>
+						</ul>
+						<div class="sosial">
+							<div class="sosial-item facebook">
+								<i class="fab fa-facebook-f"></i>
+							</div>
+							<div class="sosial-item pinterest">
+								<i class="fab fa-pinterest"></i>
+							</div>
+							<div class="sosial-item twitter">
+								<i class="fab fa-twitter"></i>
+							</div>
+							<div class="sosial-item whatsapp">
+								<i class="fab fa-whatsapp"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row border-top">
+					<div class="col-md-12 text-center text-white">
+						<div class="p-3">Copyrigth © <script>document.write(new Date().getFullYear())</script> Chollan</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+</html>
